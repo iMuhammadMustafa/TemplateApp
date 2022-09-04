@@ -2,8 +2,10 @@ import React from "react";
 import logo from "./logo.svg";
 //import { Counter } from "@/features/counter/Counter";
 import "./App.css";
-import { store } from "./app/store";
 import { Counter } from "@features/counter/Counter";
+//import { Counter } from "features/counter/Counter";
+//import { store } from "./app/store";
+//import { Counter } from "@features/counter/Counter";
 //import { store } from "@/store";
 //import { Counter } from "./features/counter/Counter";
 //import { store } from "app/store";
@@ -18,7 +20,7 @@ import { Counter } from "@features/counter/Counter";
 //import { Counter } from "features/counter/Counter";
 
 function App() {
-  const x = store;
+  //const x = store;
 
   return (
     <div className="App">
