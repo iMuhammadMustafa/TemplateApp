@@ -15,13 +15,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+
     "baseUrl": ".",
     "paths": {
+      "@Modules/*": ["src/Modules/*"]
+      //"@/*": ["./src/*"]
+      //"@/*": ["./*"],
       //"@Pages/*": ["./Pages/*"]
-      //"@/*": ["*"]
-      "@features/*": ["./src/features/*"]
+      //"@Shared/*": ["src/Modules/Shared*"]
     }
   },
-  "include": ["src/**/*.*"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "src/**/*.*"],
   "exclude": ["node_modules"]
 }
